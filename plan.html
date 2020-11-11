@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - To Do List</title>
+    <link rel="stylesheet" href="styles/font-awesome.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="main.html" class="nav__link">
+            <i class="material-icons nav__icon">
+          explore
+          </i>
+            <span class="nav_text">Explore</span>
+        </a>
+        <a href="plan.html" class="nav__link nav__link--active">
+            <i class="material-icons nav__icon">
+          check_circle
+          </i>
+            <span class="nav_text">Plan</span>
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqTRw3OLmGge-mrESZ-K_gz6gTTyy2rX8s8VardLIGi0ufYg/viewform?usp=sf_link" class="nav__link">
+            <i class="material-icons nav__icon">
+          feedback
+          </i>
+            <span class="nav_text">feedback</span>
+        </a>
+    </nav>
+    <main>
+        <h1 class="plan-head">Plan</h1>
+
+        <p class="caption"></p>
+        <section>
+            <div>
+                <div class="container"></div>
+                <div class="header">
+                    <div class="clear">
+                        <i class="fa fa-refresh"></i>
+                    </div>
+                    <div id="date"></div>
+                </div>
+                <div class="content">
+                    <ul id="list">
+
+                    </ul>
+                </div>
+                <div class="add-to-do">
+                    <i class="fa fa-plus-circle"></i>
+                    <input type="text" id="input" placeholder="Add a to-do">
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts/todo.js"></script>
+</body>
+
+</html>
