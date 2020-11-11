@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/font-awesome.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="main.html" class="nav__link">
+            <i class="material-icons nav__icon nav__link--active">
+        explore
+        </i>
+            <span class="nav_text">Explore</span>
+        </a>
+        <a href="plan.html" class="nav__link">
+            <i class="material-icons nav__icon">
+        check_circle
+        </i>
+            <span class="nav_text">Plan</span>
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqTRw3OLmGge-mrESZ-K_gz6gTTyy2rX8s8VardLIGi0ufYg/viewform?usp=sf_link" class="nav__link">
+            <i class="material-icons nav__icon">
+        feedback
+        </i>
+            <span class="nav_text">feedback</span>
+        </a>
+    </nav>
+    <main>
+        <h1 class="explore-head">Explore</h1>
+
+        <p class="caption">Discover. Find. Go</p>
+        <section>
+
+            <div class="container"></div>
+            <form class="search-loaction">
+                <input type="text" name="city" placeholder="Search for a Destination" autocomplete="off" class="form-control text-muted form-rounded p-4 shadow-sm" />
+            </form>
+            <div class="card">
+                <div class="card-top text-center">
+                    <br>
+                    <br>
+                    <div class="city-name my-3">
+                        <h1 class="search-head">Search any Place...</h1>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="card-mid row">
+                        <div class="col-8 text-center temp">
+                        </div>
+                        <div class="col-4 condition-temp">
+                            <p class="condition"></p>
+                            <p class="high"></p>
+                            <p class="low"></p>
+                        </div>
+                    </div>
+
+                    <div class="icon-container card shadow mx-auto">
+
+                    </div>
+                    <div class="card-bottom px-5 py-4 row">
+                        <div class="col text-center">
+                            <p></p>
+                        </div>
+                        <div class="col text-center">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts/explore.js"></script>
+    <script src="scripts/dest-requests.js"></script>
+</body>
