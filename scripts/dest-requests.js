@@ -1,4 +1,4 @@
-const key = 'cbe3dd267a18f6c89943b3eff94f1ed7';
+const key = '3f71b00ba1307956435b852031e96e97';
 
 const requestCity = async (city) => {
     const baseURL = 'https://api.openweathermap.org/data/2.5/weather'
